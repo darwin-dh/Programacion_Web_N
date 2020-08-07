@@ -1,0 +1,39 @@
+<html>
+<head>
+	<title>Formularios</title>
+	<meta charset="utf-8">
+</head>	
+<body background="imagen1.jpg">
+	<h1>Formulario De Registro</h1>
+	<form action="" method="post">
+		<p>Ingreso su nombre</p>
+		<label>Ingrese su nombre</label><br>
+		<input type="text" placeholder="Ingrese su Nombre" style="background: #f2f2f2;" maxlength="7" required name="nombre" >
+		<input type="number" placeholder="Ingrese su Edad" name="edad" required="">
+		<input type="email" placeholder="Ingrese su correo" maxlength="10" name="correo" required="">
+		<input type="password" placeholder="Ingrese su clave" maxlength="8" name="clave" required="">
+		<button type="submit">Registrar</button>
+		<button type="reset" >Cancelar</button>
+	</form>	
+	<form action="" method="get">
+		<label>Descripcion</label>
+		<textarea type="text" name="texto"></textarea>
+		<input type="radio" name="opcion_carrio" value="Opcion1"><label>Opcion 1</label>
+		<input type="radio" name="1" value="Opcion2"><label>Opcion 2</label>
+		<br>
+		<input type="checkbox" name="ram4g" value="Memoria 4g"><label>Ram 4g</label>
+		<input type="checkbox" name="cpu" value="amd"><label>Procesador amd</label>
+		<input type="checkbox" name="main" value="Mainboard"><label>Mainboard</label>
+
+		<select name="procesadores">
+			<option>Selecione un procesador</option>
+			<option value="i8 8750u">I8 8450U</option>
+			<option value="i7 7700">i7 7700</option>
+			<option value="i3 3200">i3 3200</option>
+		</select>
+		<br>	
+		<br>
+		<button type="submit">Calcular</button>
+	</form>
+</body>
+</html>
