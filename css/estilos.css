@@ -1,0 +1,32 @@
+h1{
+	color :green;
+}
+h2 {
+	color:red;
+}
+/*llamar class .nombre_class*/
+.subtitulo {
+ /*atributo:valor;*/
+	color:#3b5998;
+}
+.tamaño30{
+	/*font size tamaño de letra*/
+	font-size: 30px;
+}
+.parrafo{
+	color:#fff;
+	font-size: 35px;
+	background:#000;
+	margin:25px;
+	padding: 25px 40px; 
+}
+img{
+    width: 240px;
+    height: 240px;
+    margin-left: 208px;
+    margin-right: 232px;
+    margin-top: 126px;
+    margin-bottom: 71px;
+    border-radius: 15%;
+    border: double 5px #03A9F4;
+}
