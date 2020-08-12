@@ -1,0 +1,9 @@
+body{
+	/*fondo color*/
+	/*background:#46d564;*/
+	background-image:url(../img/i3.jpg);	
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: 0px 0px; 
+}	
