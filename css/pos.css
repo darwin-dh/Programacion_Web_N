@@ -1,0 +1,10 @@
+.caja{
+	width: 200px;
+	height: 200px;
+	background: #46d640;
+	margin: 20px;
+}
+.posicion{
+	margin-left: 300px;
+	position: fixed;
+}

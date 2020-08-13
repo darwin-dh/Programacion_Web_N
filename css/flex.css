@@ -1,0 +1,36 @@
+.padre{
+	width: 80%;
+	max-width:800px;
+	height: 700px;
+	background:#1c1018;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction:row;
+	/*justify-content:space-between;
+	/*align-items: center;
+	align-content:flex-end ;
+	*/
+	
+}
+.hijo{
+	width: 100px;
+	height:100px;
+	background: #c3f73a;
+	margin:20px;
+	padding: 20px;
+	text-align: center;
+	/*flex-grow: 1;
+	flex-shrink: 1;*/
+	flex:1 1 auto;
+}
+/**media query**/
+@media screen and (max-width: 600px){
+	.padre{
+		background: #094d92;
+	}
+	.hijo{
+		background:#1D2702;
+		color: #fff;
+		font-size: 25px;
+	}
+}
