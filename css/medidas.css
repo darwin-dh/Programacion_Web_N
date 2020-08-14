@@ -1,0 +1,103 @@
+	
+	.caja{
+	/*margenes*/
+	/*superior derecho inferior izquierdo*/
+	margin:25px 50px 25px 50px;
+	margin-left: 25px;
+	margin-right: 50px;
+	margin-top: 25px;
+	margin-bottom: 50px;
+	/*padding relleno interno*/
+	/*superior derecho inferior izquierdo*/
+	padding: 25px 50px 25px 50px;
+	padding-left: 25em;
+	padding-right: 25em;
+	padding-top: 25em;
+	padding-bottom: 25em;
+	/*tamaños*/
+	/*ancho*/
+	width: 1000%;
+	min-width:500%;
+	max-width:800%;
+	/*alto*/
+	height: 600px;
+	min-height:300px;
+	max-height:500px;
+	/*posiciones*/
+	position: relative;
+	top:100px;
+	bottom: 100px;
+	left: 25px;
+	right: 250px;
+	}
+.color{
+	/*color = letras*/
+	color:green;
+	color:red;
+	color:black;
+	color:#d64575;
+	color:rgb(125,255,100);
+	color:rgba(0,0,0, 0.5);
+	/* background fondo */
+	background: green;
+	background: #fff000;
+	background: rgb(100,100,100);
+	background: rgba(0,0,0, .8);
+}
+p{
+	font-size: 16px; /*1em = 16px*/
+}
+p{
+	font-size: 1em; 
+}
+p{
+	font-size: 1.1em;/*1.1em = 18px*/
+}
+p{
+	font-size: 2rem;/*2 * 16 = 32px*/
+}
+p:hover{
+	color: #fff;
+	background: rgba(0,0,0, 0.5);
+	width: auto;
+	height: 125px;
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*unidades de medidas relativas*/
+/*
+px = pixel
+em = relativa el tamaño de la fuente que tenga el elemto padre
+rem = relativa al tamaño del la fuente del body
+% = porcentaje
+
+========medidas que no se usan============
+in = pulgadas
+cm = centimetros
+mm = milimitros
+============medidas viewport=================
+1vh = 1% viewport
+100vh = alto del viewport
+1vw =1% viewport
+100vw = ancho del viewport
+*/
+/*unidades de color*/
+/*
+rgb = 255 0 0 = blanco
+rgb = 100% 100% 100% 
+rgba = 0 0 0 0.2
+hexadecimal #fff000
+*/
