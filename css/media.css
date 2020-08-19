@@ -1,0 +1,12 @@
+body{
+  background: red;
+}
+/*Las media query van
+ultimo de nuetro codigo css
+van en order del mayor a menor
+*/
+@media screen and (max-width:600px){
+  body{
+    background: green;
+  }
+}
