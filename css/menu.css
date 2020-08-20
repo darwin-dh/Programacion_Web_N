@@ -5,8 +5,10 @@
 }
 body{
   font-size: 16px;
-  background: #fff;
   background:url(../img/fondo.jpg);
+
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .container{
   width: 90%;
@@ -15,9 +17,6 @@ body{
 }
 header{
   margin-top: 50px;
-  background-position:center;
-  background-size: cover;
-  background-repeat: no-repeat;
   max-height:600px;
   overflow: hidden;
   display: flex;
@@ -25,7 +24,6 @@ header{
   flex-wrap: wrap;
   align-items: center;
   justify-content:space-between;
-
 }
 header .logo{
 width: 150px;
@@ -49,11 +47,27 @@ header .menu a:hover{
 border-bottom: 2px solid #fff;
 cursor: grabbing;
 }
-
-
-
-
-
+.main{
+  background: #fff;
+  margin-top: 40px;
+  padding:20px;
+}
+.main article .imagen{
+  margin-bottom:20px;
+}
+.main article .imagen img{
+  width: 100%;
+}
+.main article h2{
+margin-bottom:20px;
+font-size: 32px;
+font-weight: normal;
+}
+.main article p{
+  margin-bottom: 20px;
+  font-size: 15px;
+  line-height: 20px;
+}
 
 
 
