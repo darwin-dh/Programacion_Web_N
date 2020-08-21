@@ -1,0 +1,26 @@
+
+.caja1{
+  background: white;
+  width: 1000px;
+  height: 50px;
+  margin-left: 200px;
+}
+.caja2{
+  background: red;
+  width: 700px;
+  height: 600px;
+  margin-left: 200px;
+}
+.caja3{
+  background:lime;
+  width: 300px;
+  height: 600px;
+  margin-left: 900px;
+  margin-top: -600px;
+}
+.caja4{
+  background: blue;
+  width: 1000px;
+  height: 50px;
+  margin-left: 200px;
+}
