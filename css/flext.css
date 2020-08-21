@@ -1,0 +1,25 @@
+
+  .padre{
+    background: DodgerBlue;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap:wrap;
+
+  }
+  .hijo{
+    background: white;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    flex: auto;
+  }
+.verde{
+  background: green!important;
+}
+.padre .hijo img{
+  width: 100%;
+  height: 100%;
+}
+.media3{
+  flex-grow: 8;
+}
