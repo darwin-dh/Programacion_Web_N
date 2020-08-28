@@ -1,37 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="css/slider.css">
-  <title>Document</title>
-</head>
-<body>
-<div class="contenedor">
-  <header></header>
-  <section class="main">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="css/slider.css">
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="contenedor">
+            <header></header>
+            <section class="main">
 
-  <div class="slider">
-      <ul>
-        <li><img src="img/imagen1.jpg"></li>
-        <li><img src="img/imagen2.jpg"></li>
-        <li><img src="img/imagen3.jpg"></li>
-        <li><img src="img/imagen4.jpg"></li>
-      </ul>
-  </div>
-  <marquee behavior="" direction="right" scrollamount="50">
-    <img src="img/imagen1.jpg">
-    <img src="img/imagen2.jpg">
-    <img src="img/imagen3.jpg">
-    <img src="img/imagen4.jpg">
-  </marquee>
+                <div class="slider">
+                    <ul>
+                        <li><img src="img/imagen1.jpg"></li>
+                        <li><img src="img/imagen2.jpg"></li>
+                        <li><img src="img/imagen3.jpg"></li>
+                        <li><img src="img/imagen4.jpg"></li>
+                    </ul>
+                </div>
+                <marquee behavior="" direction="right" scrollamount="50">
+                    <img src="img/imagen1.jpg">
+                    <img src="img/imagen2.jpg">
+                    <img src="img/imagen3.jpg">
+                    <img src="img/imagen4.jpg">
+                </marquee>
 
+            </section>
+            <aside>
+                <div class="zoom">
+                    <ul class="galeria">
+                        <li>
+                            <a href="#img1">Abrir aqui</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="modal" id="img1">
+                  <div class="imagen">
+                    <a href=""><img src="img/imagen4.jpg"></a>
+                  </div>
+                </div>
 
-
-  </section>
-  <aside></aside>
-  <footer></footer>
-</div>
-</body>
+            </aside>
+            <footer></footer>
+        </div>
+    </body>
 </html>
