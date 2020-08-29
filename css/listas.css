@@ -1,0 +1,22 @@
+body{
+  background: #fff;
+}
+.menu{
+  background: #4357ad;
+  width: 200px;
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+.menu li{
+  border-bottom: 1px solid #fff;
+}
+.menu li a{
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  color: #fff;
+}
+.menu li a:hover{
+  background: #4888d6;
+}
