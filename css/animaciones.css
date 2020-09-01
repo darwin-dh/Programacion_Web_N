@@ -1,0 +1,120 @@
+body {
+    background: #fff;
+}
+.caja {
+    background: #8338ec;
+    width: 200px;
+    height: 200px;
+
+}
+.caja:hover {
+    cursor: pointer;
+    position: relative;
+    /*animation-name:mover;
+  animation-duration: 1s;
+  animation-iteration-count:1;*/
+    animation: mover 1s ease 1;
+}
+@keyframes mover {
+    0% {
+        transform: translate(0px);
+    }
+
+    100% {
+        transform: translate(200px);
+    }
+}
+table,th,td{
+  margin-top: 20px;
+  border:1px solid rgba(0,0,0,0.2);
+}
+table{
+border-collapse: collapse;
+width: 500px;
+text-align: center;
+}
+th{
+  background: #3a86ff;
+  color:#fff;
+}
+th,td{
+  padding: 10px 20px;
+}
+tr:hover{
+  background: #e5e5e5;
+  cursor: zoom-in;
+}
+.caja1{
+  margin-top: 20px;
+  width: 200px;
+  height: 200px;
+  background: #fb5607;
+  transition: all 2s ease;
+
+}
+.caja1:hover{
+  width: 400px;
+  background: #9eb3c2;
+  transform: rotate(360deg);
+}
+/**velocidad de curva
+ease - inicio lento ,despues rapido.termina lento
+lienar - misma velocidad de inicio a fin
+ease-in inicio lento
+ease-out final lento
+ease-in-out - inicio lento y final lento
+*/
+.menu{
+  background: #0466c8;
+  list-style: none;
+  padding: 0;
+  margin: 20px auto;
+  position:;
+}
+.menu li{
+  display: inline-block;
+  text-align: center;
+}
+.menu li a{
+  color:#fff;
+  text-decoration: none;
+  display: inline-block;
+  padding: 20px;
+}
+.menu li:hover{
+  background: #000;
+}
+header{
+
+}
+header nav{
+
+}
+header nav a{
+width: 100;
+}
+.main{
+
+}
+.main article{
+
+}
+.main article h2{
+
+}
+
+@media screen and (max-width:800px){}
+@media screen and (max-width:600px){}
+@media screen and (max-width:300px){}
+
+
+
+
+
+
+
+
+
+
+
+/***/

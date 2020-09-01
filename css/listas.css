@@ -2,7 +2,7 @@ body{
   background: #fff;
 }
 .menu{
-  background: #4357ad;
+  background: #003049;
   width: 200px;
   list-style: none;
   padding: 0;
@@ -18,5 +18,5 @@ body{
   color: #fff;
 }
 .menu li a:hover{
-  background: #4888d6;
+  background: #1fb0ff;
 }
